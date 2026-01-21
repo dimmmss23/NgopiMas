@@ -1,0 +1,30 @@
+
+> ngopi-mas@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.4 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 1 errors:
+./components/sections/AboutSection.tsx:1:1
+Module not found: Can't resolve './TextReveal'
+> 1 | import TextReveal from "./TextReveal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function AboutSection() {
+  4 |     return (
+
+
+
+Import trace:
+  Server Component:
+    ./components/sections/AboutSection.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (./components/sections/AboutSection.tsx:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
